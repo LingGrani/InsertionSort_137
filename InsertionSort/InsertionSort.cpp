@@ -64,7 +64,11 @@ void display()
 	cout << "\n ===============================" << endl;
 	cout << "Element Array yang telah disusun" << endl;
 	cout << "==================================" << endl;
-	
+	for (int j = 0; j < n; j++)
+	{					// Looping dengan j dimulai dari 0 hingga n-1
+		cout << arr[j] << endl; // output ke layar
+	}
+	cout << endl; // output baris kosong
 }
 int main()
 {
