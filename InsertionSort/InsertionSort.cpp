@@ -31,6 +31,12 @@ void input()
 		cin >> arr[i];							//memasukan nilai data n kedalam array
 	}
 }
+//prosedure insertionsort
+void insertionsort() 
+{
+	int temp; //variable data temporer / penyimpanan sementara
+	int j; // variable J sebagai penanda
+}
 int main()
 {
    
