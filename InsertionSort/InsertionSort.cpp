@@ -57,6 +57,15 @@ void insertionsort()
 	}
 }
 
+void display() 
+{
+	cout << endl;
+	cout << "total element movement = " << n-1 << endl;
+	cout << "\n ===============================" << endl;
+	cout << "Element Array yang telah disusun" << endl;
+	cout << "==================================" << endl;
+	
+}
 int main()
 {
    
